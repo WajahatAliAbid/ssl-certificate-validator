@@ -25,7 +25,7 @@ let site_domain = args.domain;
         let certificate = await sslCertificate.get(site_domain);
         console.info("Validating certificate");
         let data = await validateCertToDomain(cert = certificate.pemEncoded, domain = site_domain, options = null);
-        console.log(`Certificate valid! Issuer: ${data.certInfo.issuer.organization}`);
+        console.info(`Certificate valid! Issuer: ${data.certInfo.issuer.organization}`);
     } catch (error) {
         console.error(error);
     }
