@@ -1,5 +1,5 @@
 # SSL Certificate Validator
-This script uses [get-ssl-certificate]() and [ssl-validator]() to validate if a domain has valid ssl ceritificate. 
+This script uses [get-ssl-certificate](https://www.npmjs.com/package/get-ssl-certificate) and [ssl-validator](https://www.npmjs.com/package/ssl-validator) to validate if a domain has valid ssl ceritificate. 
 To setup use the following command
 ```bash
 npm install
