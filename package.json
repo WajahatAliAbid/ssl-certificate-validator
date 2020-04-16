@@ -1,0 +1,23 @@
+{
+  "name": "ssl-certificate-validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WajahatAliAbid/ssl-certificate-validator.git"
+  },
+  "author": "Wajahat Ali Abid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WajahatAliAbid/ssl-certificate-validator/issues"
+  },
+  "homepage": "https://github.com/WajahatAliAbid/ssl-certificate-validator#readme",
+  "dependencies": {
+    "get-ssl-certificate": "^2.3.3",
+    "ssl-validator": "^1.0.6"
+  }
+}
