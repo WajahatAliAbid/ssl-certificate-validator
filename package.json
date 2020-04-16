@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/WajahatAliAbid/ssl-certificate-validator#readme",
   "dependencies": {
+    "argparse": "^1.0.10",
     "get-ssl-certificate": "^2.3.3",
     "ssl-validator": "^1.0.6"
   }
